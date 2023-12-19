@@ -11,7 +11,7 @@ def get_game_num(input):
         for each in game_columns[0]:
                 return re.sub(r'Game ','', game_columns[0])
 
-#list of colors for below method
+#list of colors for the params in the funtion below and the new columns later
 colors = ['green', 'blue', 'red']
 
 # Define a function to extract the maximum number for a given color
